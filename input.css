@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+  @layer base {
+    html {
+      font-family: Overpass, system-ui, sans-serif;
+    }
+  }
+
+  #submit-btn:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  .number:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: all 700ms linear 0s;
+  }
